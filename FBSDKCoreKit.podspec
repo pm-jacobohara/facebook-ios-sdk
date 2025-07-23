@@ -48,8 +48,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
 
   s.source = {
-      http: "https://github.com/facebook/facebook-ios-sdk/releases/download/v#{s.version}/FacebookSDK_Dynamic.xcframework.zip",
-      sha1: 'd109d5534c2769723e3807911bb3e8f433e63551'
+      http: "https://github.com/pm-jacobohara/facebook-ios-sdk/releases/download/vv17.0.1-patched/FBSDKCoreKit-v17.0.1-patched.zip",
+      sha256: 'aac3a41feee1c195ad4c3443faa57b64a5d0fbd4f94ad686caa6398f12b5f35b'
   }
   s.vendored_frameworks = 'XCFrameworks/FBSDKCoreKit.xcframework'
   s.dependency 'FBSDKCoreKit_Basics', "#{s.version}"
